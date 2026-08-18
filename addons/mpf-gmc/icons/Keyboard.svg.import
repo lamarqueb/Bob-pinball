@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvqnt240kd0ww"
-path="res://.godot/imported/Keyboard.svg-1c8391d9615e3c00e41bc820596f46dd.ctex"
+uid="uid://bvbglhbivbgay"
+path="res://.godot/imported/Keyboard.svg-41eb478ce680e667b5a1e4d003fec682.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpf-gmc/icons/Keyboard.svg"
-dest_files=["res://.godot/imported/Keyboard.svg-1c8391d9615e3c00e41bc820596f46dd.ctex"]
+source_file="res://mpf-gmc-a1bd1e785a72c7561ae1ecec3713dcab5bdc4965/addons/mpf-gmc/icons/Keyboard.svg"
+dest_files=["res://.godot/imported/Keyboard.svg-41eb478ce680e667b5a1e4d003fec682.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw3visswqywpi"
-path="res://.godot/imported/VideoStreamPlayer.svg-3b6ea6c82275933e9ee3ed0348d76cf9.ctex"
+uid="uid://dqroynwh7eudr"
+path="res://.godot/imported/VideoStreamPlayer.svg-29264f036ff13b61a0f4f1d559a58d4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpf-gmc/icons/VideoStreamPlayer.svg"
-dest_files=["res://.godot/imported/VideoStreamPlayer.svg-3b6ea6c82275933e9ee3ed0348d76cf9.ctex"]
+source_file="res://mpf-gmc-a1bd1e785a72c7561ae1ecec3713dcab5bdc4965/addons/mpf-gmc/icons/VideoStreamPlayer.svg"
+dest_files=["res://.godot/imported/VideoStreamPlayer.svg-29264f036ff13b61a0f4f1d559a58d4b.ctex"]
 
 [params]
 

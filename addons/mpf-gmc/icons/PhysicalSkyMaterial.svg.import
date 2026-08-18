@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqx0eek43848b"
-path="res://.godot/imported/PhysicalSkyMaterial.svg-b7c20e8b6cba5bb0879a516a462091a8.ctex"
+uid="uid://bde7bxb1sumrt"
+path="res://.godot/imported/PhysicalSkyMaterial.svg-7ff579b30ce52b8ef974e824e4648fda.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpf-gmc/icons/PhysicalSkyMaterial.svg"
-dest_files=["res://.godot/imported/PhysicalSkyMaterial.svg-b7c20e8b6cba5bb0879a516a462091a8.ctex"]
+source_file="res://mpf-gmc-a1bd1e785a72c7561ae1ecec3713dcab5bdc4965/addons/mpf-gmc/icons/PhysicalSkyMaterial.svg"
+dest_files=["res://.godot/imported/PhysicalSkyMaterial.svg-7ff579b30ce52b8ef974e824e4648fda.ctex"]
 
 [params]
 
