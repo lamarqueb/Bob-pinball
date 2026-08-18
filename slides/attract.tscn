@@ -21,6 +21,7 @@ color = Color(0.011764706, 0.23137255, 1, 1)
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+layout_direction = 2
 script = ExtResource("2_f161n")
 carousel_name = "attract"
 metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
