@@ -1,3 +1,5 @@
 #config_version=6
 
-coils
+coils:
+    c_trough_eject:
+        number: o0_01

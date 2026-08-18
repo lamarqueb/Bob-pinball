@@ -8,9 +8,9 @@
 # imported and merged with this one.
 
 config:
-  - config_coils.yaml
   - config_switches.yaml
   - config_ball_devices.yaml
+  - config_coils.yaml
 
 modes:
   - attract

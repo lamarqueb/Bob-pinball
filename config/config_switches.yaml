@@ -3,17 +3,17 @@
 switches:
     # cabinet switches
     s_flipper_left:
-        number: 0_01
+        number:
         tags: left_flipper
     s_flipper_right:
-        number: 0_02
+        number:
         tags: right_flipper
     #contacteur de bille
     s_trough_1:
-        number: 0_03
+        number:
     s_trough_2:
-        number: 0_04
+        number:
     s_trough_3: 
-        number: 0_05
-    s_oplunger_lane:
-        number: 0_06
+        number:
+    s_plunger_lane:
+        number:
