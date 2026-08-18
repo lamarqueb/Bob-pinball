@@ -5,11 +5,11 @@
 
 mode_settings:
   selectable items:
-  - title
-  - credits
-  - mpf_logo
+    - title
+    - credits
+    - mpf_logo
   next_item_events: s_flipper_right_active, timer_attract_carousel_timer_complete
-  previous_item_event: s_flipper_left_active
+  previous_item_events: s_flipper_left_active
 
 slide_player:
   mode_attract_started: attract
@@ -18,7 +18,7 @@ sound_player:
   mode_attract_started:	
     attract :
       bus: music
-
+      
 timers:
   attract_carousel_timer:
     end_value: 1

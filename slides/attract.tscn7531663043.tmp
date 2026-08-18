@@ -11,19 +11,29 @@ anchors_preset = 0
 script = ExtResource("1_r1mnt")
 metadata/_custom_type_script = "uid://dru3usokwlhd3"
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=2004547460]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=939714254]
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
-color = Color(0.043137256, 0.09803922, 1, 1)
+color = Color(0.011764706, 0.23137255, 1, 1)
 
 [node name="MPFCarousel" type="Control" parent="." unique_id=2855778]
 anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+layout_direction = 2
+script = ExtResource("2_f161n")
+carousel_name = "attract"
+metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
+
+[node name="title" type="Label" parent="MPFCarousel" unique_id=1744508496]
+layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
-script = ExtResource("2_f161n")
-carousel_name = "Attract"
-metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
+theme_override_font_sizes/font_size = 100
+text = "Welcome to Sponge Bob Pinball"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="credits" type="Label" parent="MPFCarousel" unique_id=775176237]
 layout_mode = 0
@@ -43,12 +53,3 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel" unique_id=1482817056]
 position = Vector2(954, 547)
 texture = ExtResource("4_twbla")
-
-[node name="title" type="Label" parent="MPFCarousel" unique_id=1744508496]
-layout_mode = 0
-offset_right = 1920.0
-offset_bottom = 1080.0
-theme_override_font_sizes/font_size = 100
-text = "Welcome to Sponge Bob Pinball"
-horizontal_alignment = 1
-vertical_alignment = 1
