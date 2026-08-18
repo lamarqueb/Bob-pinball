@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://k21h86noio0a"
-path="res://.godot/imported/MultiMesh.svg-9cc87342897ff8e07ad74068086e0009.ctex"
+path="res://.godot/imported/MultiMesh.svg-311126bf707ed5622a858138f8d8ec9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mpf-gmc-a1bd1e785a72c7561ae1ecec3713dcab5bdc4965/addons/mpf-gmc/icons/MultiMesh.svg"
-dest_files=["res://.godot/imported/MultiMesh.svg-9cc87342897ff8e07ad74068086e0009.ctex"]
+source_file="res://addons/mpf-gmc/icons/MultiMesh.svg"
+dest_files=["res://.godot/imported/MultiMesh.svg-311126bf707ed5622a858138f8d8ec9a.ctex"]
 
 [params]
 

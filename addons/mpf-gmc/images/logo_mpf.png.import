@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dounln3l35d26"
-path="res://.godot/imported/logo_mpf.png-6b4f9d150a8ec23eb4d87eb6197407c4.ctex"
+path="res://.godot/imported/logo_mpf.png-b44ee92a29427e0a82b3a6c15873a387.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mpf-gmc-a1bd1e785a72c7561ae1ecec3713dcab5bdc4965/addons/mpf-gmc/images/logo_mpf.png"
-dest_files=["res://.godot/imported/logo_mpf.png-6b4f9d150a8ec23eb4d87eb6197407c4.ctex"]
+source_file="res://addons/mpf-gmc/images/logo_mpf.png"
+dest_files=["res://.godot/imported/logo_mpf.png-b44ee92a29427e0a82b3a6c15873a387.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqqimgyu2ne44"
-path="res://.godot/imported/GridLayout.svg-c7c21fabfe411d4cffb183c44fe5a461.ctex"
+path="res://.godot/imported/GridLayout.svg-25652440c5bd6d44830d1377b8608c10.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mpf-gmc-a1bd1e785a72c7561ae1ecec3713dcab5bdc4965/addons/mpf-gmc/icons/GridLayout.svg"
-dest_files=["res://.godot/imported/GridLayout.svg-c7c21fabfe411d4cffb183c44fe5a461.ctex"]
+source_file="res://addons/mpf-gmc/icons/GridLayout.svg"
+dest_files=["res://.godot/imported/GridLayout.svg-25652440c5bd6d44830d1377b8608c10.ctex"]
 
 [params]
 
