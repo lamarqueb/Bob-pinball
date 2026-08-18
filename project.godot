@@ -11,13 +11,8 @@ config_version=5
 [application]
 
 config/name="Spongebob"
-run/main_scene="uid://ds4gduf8660uj"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
-
-[audio]
-
-buses/default_bus_layout="uid://2tx8lw45m87k"
 
 [autoload]
 
@@ -25,8 +20,6 @@ MPF="*uid://c05iybd1a77mc"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
