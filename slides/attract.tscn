@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bu2fa8wsthke5"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0as0c"]
+font_size = 120
+
+[node name="Attract" type="Control" unique_id=875671654]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1257430618]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.03529412, 0.07058824, 1, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=1519052565]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+rotation = 0.0007343329
+text = "Welcome to SpongeBob Pinball"
+label_settings = SubResource("LabelSettings_0as0c")
+horizontal_alignment = 1
+vertical_alignment = 1
