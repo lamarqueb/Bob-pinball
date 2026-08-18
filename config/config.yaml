@@ -17,6 +17,6 @@ modes:
   - base
 
 playfields:
-  playfields:
+  playfield:
     default_source_device: bd_trough
     tags: default
