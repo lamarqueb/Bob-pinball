@@ -5,7 +5,7 @@
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_cq3lo"]
 [ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_twbla"]
 
-[node name="Attract" type="Control" unique_id=1101108525]
+[node name="attract" type="Control" unique_id=1101108525]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_r1mnt")
@@ -17,22 +17,34 @@ offset_right = 1920.0
 offset_bottom = 1080.0
 color = Color(0.043137256, 0.09803922, 1, 1)
 
-[node name="MPFCarousel" type="Control" parent="." unique_id=2855778]
+[node name="attract" type="Control" parent="." unique_id=1631938720]
 anchors_preset = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
 script = ExtResource("2_f161n")
-carousel_name = "Attract"
+carousel_name = "attract"
 metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
 
-[node name="credits" type="Label" parent="MPFCarousel" unique_id=775176237]
+[node name="mpf_logo" type="Sprite2D" parent="attract" unique_id=2044313945]
+position = Vector2(967, 536)
+scale = Vector2(2.3045454, 2.125)
+texture = ExtResource("4_twbla")
+
+[node name="title" type="Label" parent="attract" unique_id=452329809]
 layout_mode = 0
-offset_left = -13.0
-offset_top = 341.0
-offset_right = 1909.0
-offset_bottom = 739.0
+offset_right = 1916.0
+offset_bottom = 1073.0
 theme_override_font_sizes/font_size = 100
-text = "sample text"
+text = "Bienvenue sur pinball Sponge bob"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="credits" type="Label" parent="attract" unique_id=1613087460]
+layout_mode = 0
+offset_right = 1922.0
+offset_bottom = 1073.0
+theme_override_font_sizes/font_size = 100
+text = "Free game"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("3_cq3lo")
@@ -40,15 +52,50 @@ variable_type = 2
 variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel" unique_id=1482817056]
-position = Vector2(954, 547)
-texture = ExtResource("4_twbla")
+[node name="last_scores_1p" type="Node2D" parent="attract" unique_id=914353846]
+visible = false
 
-[node name="title" type="Label" parent="MPFCarousel" unique_id=1744508496]
-layout_mode = 0
-offset_right = 1920.0
-offset_bottom = 1080.0
-theme_override_font_sizes/font_size = 100
-text = "Welcome to Sponge Bob Pinball"
+[node name="player1_score" type="Label" parent="attract/last_scores_1p" unique_id=678008526]
+offset_right = 1916.0
+offset_bottom = 1082.0
+theme_override_font_sizes/font_size = 101
+text = "123,456"
 horizontal_alignment = 1
 vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="last_scores_2p" type="Node2D" parent="attract" unique_id=570406405]
+
+[node name="player1_score" type="Label" parent="attract/last_scores_2p" unique_id=329668830]
+offset_right = 1916.0
+offset_bottom = 529.0
+theme_override_font_sizes/font_size = 101
+text = "score"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="player2_score" type="Label" parent="attract/last_scores_2p" unique_id=93862571]
+offset_top = 553.0
+offset_right = 1916.0
+offset_bottom = 1082.0
+theme_override_font_sizes/font_size = 101
+text = "score"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_cq3lo")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
